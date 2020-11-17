@@ -10,6 +10,7 @@ public class HomeController {
 	@GetMapping("/")
 	//기본 / 없으면 
 	public String home(){
+		System.out.println("커밋");
 		return "home";
 	}
 }

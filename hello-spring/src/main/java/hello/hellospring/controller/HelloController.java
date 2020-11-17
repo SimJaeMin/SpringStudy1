@@ -13,6 +13,7 @@ public class HelloController {
 	//Model model 스프링이 생성해준다.
 	//return이 문자열이면 src/main/resources/templates 에서 찾는다.
 	public String hello(Model model) {
+		System.out.println("커밋");
 		model.addAttribute("data","hello!!");
 		return "hello";
 	}
